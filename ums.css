@@ -81,12 +81,20 @@ main {
 #ourvision,
 #services {
     border: 3px solid rgb(167, 92, 92);
-    padding: 1rem;
-    margin: 33px auto;
+    padding: 23px;
+    margin-left: auto;
+    margin-right: auto;
     width: 555px;
+    display: inline-block;
     box-sizing: border-box;
     text-align: center;
     background-color: lightgray;
+    margin-bottom: 30px;
+
+}
+
+#content-container {
+    text-align: center;
 }
 
 #welcome {
@@ -134,7 +142,6 @@ main {
     text-align: center;
     margin: 33px auto;
 }
-
 
 details {
     border: 3px solid rgb(167, 92, 92);
@@ -274,17 +281,11 @@ form button:hover {
     text-decoration: none;
     color:rgb(82, 82, 133);
 }
-
 .slider {
     position: relative;
     max-width: 800px;
     margin: auto;
     overflow: hidden;
-}
-
-.slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
 }
 
 .slides img {
