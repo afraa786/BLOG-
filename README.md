@@ -1,2 +1,2 @@
 # BLOG-
-[text](../blogginapp.drawio)
+[../blogginapp.drawio]
