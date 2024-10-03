@@ -1,7 +1,9 @@
-BLOG
+#BLOG
+
 "A backend application for managing blog posts, comments, and user authentication, providing RESTful APIs for seamless interaction with the front end."
 
 Technologies Used:
+
 Java: Programming language for the backend logic.
 
 Spring Boot: Framework for building the backend services.
