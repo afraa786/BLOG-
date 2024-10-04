@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/user/
+Authorization: Basic base64encodedCredentials
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "password": "password123",
+  "about": "This is about John Doe"
+}
